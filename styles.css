@@ -1,0 +1,55 @@
+body {
+    background-color: bisque;
+}
+
+.rows {
+    display: flex;
+    margin-bottom: -1px;
+}
+
+.cols {
+    margin-right: -1px;
+    border-radius: 10%;
+}
+.container{
+    display:flex;
+    justify-content: space-evenly;
+}
+.black {
+    background-color: black;
+}
+
+.grid-container {
+    display: flex;
+    width: 50vw;
+    height: 75vh;
+    background-color: white;
+    flex-direction: column;
+    border-radius: 2%;
+}
+
+.grid-container div {
+    flex: 1
+}
+
+h1 {
+    text-align: center;
+    font-family: cursive;
+    color:gold;
+    text-shadow: 1px 1px 4px black;
+    font-size: 3rem;
+    margin: 0 auto 0.5rem;
+}
+.btn{
+    background-color: lightcoral;
+    padding: 0.5rem;
+    border: solid 1px black;
+    font-family: cursive;
+    border-radius: 5%;
+    height:3rem;
+    width: 6rem;
+    margin-top: 10%;
+}
+.btn:hover{
+    box-shadow: 1px 1px 1px 2px  maroon;
+}
